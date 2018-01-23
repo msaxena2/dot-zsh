@@ -1,0 +1,1 @@
+export PATH=$PATH:~/.local/bin:/Users/manasvi/Projects/evm-semantics/tests/ci/uiuc-k/k-distribution/target/release/k/lib/native/osx
