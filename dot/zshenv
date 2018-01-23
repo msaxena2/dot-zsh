@@ -1,0 +1,2 @@
+# Temporary manual path management
+export PATH=$PATH:~/.local/bin:$HOME/Projects/evm-semantics/tests/ci/uiuc-k/k-distribution/target/release/k/lib/native/osx

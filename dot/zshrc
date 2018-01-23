@@ -1,0 +1,25 @@
+# The following lines were added by compinstall
+
+autoload -Uz compinit
+compinit
+# End of lines configured by zsh-newuser-install
+
+autoload -Uz promptinit
+promptinit
+
+# Prompt customization
+prompt redhat
+
+# Vi bindings
+bindkey -v
+
+# Add .local into PATH
+
+export PATH=$PATH:~/.local/bin
+
+# Pyenv setup
+eval "$(pyenv init -)"
+
+alias uiuck="~/Projects/evm-semantics/tests/ci/with-k uiuck zsh"
+
+
